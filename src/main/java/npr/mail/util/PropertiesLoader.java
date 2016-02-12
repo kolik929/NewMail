@@ -1,4 +1,4 @@
-package util;
+package npr.mail.util;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.Properties;
 public class PropertiesLoader {
 
 
-	public String getProperty(String value) {
+	public static String getProperty(String value) {
 
 		Properties prop = new Properties();
 		InputStream input = null;
